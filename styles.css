@@ -69,8 +69,54 @@ main {
 
 .desc-left {
     background-color: var(--cyan);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heading {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.sub-price {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.sub-desc {
+    font-size: 0.9rem;
+}
+
+.price {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.per-month {
+    opacity: 0.5;
+    font-size: 0.9rem;
 }
 
 .desc-right {
     background-color: hsl(179, 53%, 54%);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sign-up {
+    background-color: var(--bright-yellow);
+    border-radius: 8px;
+    border: none;
+    padding: 1rem;
+    color: white;
+    box-shadow: 4px 4px 12px 0 rgb(0 0 0 / 0.2);
+}
+
+.why-desc {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    line-height: 1.1rem;
 }
