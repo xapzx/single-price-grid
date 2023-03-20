@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/xapzx/single-price-grid]
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [https://xapzx.github.io/single-price-grid/]
 
 ## My process
 
