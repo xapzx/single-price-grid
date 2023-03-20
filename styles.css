@@ -120,3 +120,14 @@ main {
     opacity: 0.8;
     line-height: 1.1rem;
 }
+
+@media screen and (max-width: 960px) {
+    body {
+        padding: 2rem;
+    }
+
+    .desc {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
