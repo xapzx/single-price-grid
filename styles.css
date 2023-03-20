@@ -20,4 +20,57 @@ html {
 body {
     font-family: 'Karla', sans-serif;
     font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--light-gray);
+}
+
+main {
+    max-width: 35rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 4px 8px 24px 2px rgb(0 0 0 / 0.2);
+}
+
+.join, .desc-left, .desc-right {
+    padding: 2rem;
+}
+
+.join {
+    background-color: white;
+}
+
+.join > h1 {
+    color: var(--cyan);
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+}
+
+.guarantee {
+    color: var(--bright-yellow);
+    font-weight: 700;
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+.join-desc {
+    color: var(--grayish-blue);
+    font-size: 0.9rem;
+}
+
+.desc {
+    color: var(--light-gray);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.desc-left {
+    background-color: var(--cyan);
+}
+
+.desc-right {
+    background-color: hsl(179, 53%, 54%);
 }
